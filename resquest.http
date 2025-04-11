@@ -1,0 +1,22 @@
+GET http://localhost:5050/users
+
+###
+
+POST http://localhost:5050/join-game
+Content-Type: application/json
+
+{
+    "name": "Johnny"
+}
+
+###
+
+POST http://localhost:5050/notificar-dia
+Content-Type: application/json
+
+###
+
+POST http://localhost:5050/notificar-noche
+Content-Type: application/json
+
+###
